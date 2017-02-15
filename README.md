@@ -17,19 +17,19 @@ sudo apt-get install libgsl-dev
 gcc -std=gnu99 -Ofast -o rbm rbm.c -lm -lopenblas 
 (ignore the warning on the return value of fscanf)
 
-Data goes to stdout. Usage: ./rbm <input_data_file> foo
+Data goes to stdout. Usage: `./rbm <input_data_file> foo`
 
 
 gcc -std=c99 -o bars_and_stripes bars_and_stripes.c -lgsl -lopenblas
 to compile a program that generates data for the bars and stripes problem
 
-Data goes to stdout. Usage: ./bars_and_stripes <square linear dimension>
+Data goes to stdout. Usage: `./bars_and_stripes <square linear dimension>`
 
 
 gcc -std=c99 -o labeled_shifter_ensemble labeled_shifter_ensemble.c -lgsl -lopenblas
 to compile a program that generates data for the labeled shifter ensemble problem
 
-Data goes to stdout. Usage: ./labeled_shifter_ensemble <N> where size of each sample will be 2N+3
+Data goes to stdout. Usage: `./labeled_shifter_ensemble <N>` where size of each sample will be 2N+3
 
 ## Not an example of good coding practices
 
