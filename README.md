@@ -1,10 +1,12 @@
-# C implementation of Contrastive Divergence (CD_k)
+# C implementation of Contrastive Divergence (CD_k) 
 
 ## Comments
 
+I was trying to compare a C implementation of CD_k with other implementations usually written in Python, Matlab, etc. A *naive* C implementation (not in the repo) was much *slower* than its counterparts. Only by using additional libraries, such as openblas, one is able to remain competitive. Maybe it was obvious but, you know, programming is fun :smiley:
+
 Only tested in Ubuntu & the like (Mint, etc)
 
-Not very useful for large problems, since it computes *explicitly* the partition function.
+Not very useful for large problems, since it computes *explicitly* the partition function. 
 
 ## Dependencies: openblas, gsl
 
