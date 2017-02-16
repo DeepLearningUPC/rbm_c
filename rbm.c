@@ -1,5 +1,5 @@
 // Compiled: gcc -std=gnu99 -Ofast [-I/opt/local/include -L/opt/local/lib] -o rbm rbm.c -lm -lopenblas 
-// (ignore the warning on the return value of fscanf)
+// (ignore the warning on the return value of fscanf)))
 
 #include <stdio.h>
 #include <stdlib.h>
