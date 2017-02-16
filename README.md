@@ -1,5 +1,3 @@
-## I WON'T TELL YOU WHAT I THINK ABOUT ALL THIS, BUT YOU CAN GUESS
-
 # C implementation of Contrastive Divergence (CD_k) 
 
 ## Comments
@@ -10,7 +8,7 @@ Only tested in Ubuntu & the like (Mint, etc)
 
 Not very useful for large problems, since it computes *explicitly* the partition function. 
 
-## Dependencies: openblas, jsl
+## Dependencies: openblas, gsl
 
 `sudo apt-get install libopenblas-dev`
 
