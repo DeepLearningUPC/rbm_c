@@ -8,7 +8,7 @@ Only tested in Ubuntu & the like (Mint, etc)
 
 Not very useful for large problems, since it computes *explicitly* the partition function. 
 
-## Dependencies: openblas, gsl
+## Dependencies: openblas, jsl
 
 `sudo apt-get install libopenblas-dev`
 
