@@ -1,3 +1,5 @@
+## I WON'T TELL YOU WHAT I THINK ABOUT ALL THIS, BUT YOU CAN GUESS
+
 # C implementation of Contrastive Divergence (CD_k) 
 
 ## Comments
