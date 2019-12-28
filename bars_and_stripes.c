@@ -1,4 +1,4 @@
-// compile: gcc -std=c99 -I/opt/local/include -L/opt/local/lib -o bars_and_stripes bars_and_stripes.c -lgsl
+// compile: gcc -std=gnu99 -Ofast -o bars_and_stripes bars_and_stripes.c -lm -lgsl -lopenblas
 
 #include <stdio.h>
 #include <stdlib.h>

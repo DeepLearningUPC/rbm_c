@@ -1,4 +1,4 @@
-// compile: gcc -std=c99 -I/opt/local/include -L/opt/local/lib -o labeled_shifter_ensemble labeled_shifter_ensemble.c -lgsl
+// compile: gcc -std=gnu99 -Ofast -o labeled_shifter_ensemble labeled_shifter_ensemble.c -lm -lgsl -lopenblas
 
 #include <stdio.h>
 #include <stdlib.h>
